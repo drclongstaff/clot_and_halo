@@ -1,0 +1,57 @@
+h2{border-bottom: 1px dotted #000000; font-family: Helvetica; color: white; background-color:#1C2F4C;font-size: 14;}
+h4{font-family: Verdana; color: #0C0C0C; font-size: 12}
+h5{font-family: Verdana; color: #1F1F1F; font-size: 11}
+
+
+:root {
+  --bright: #d5ecff;
+  --middle: #699EB5;
+  --dark: #377290;
+  --darker: #3D6B82;
+}
+
+
+body{background-color:#FBFCFD; color:#1F1F1F;}
+
+/*colour around radio buttons*/
+/*.shiny-input-radiogroup { */
+/*  background-color: #EFF5F8;}*/
+
+
+div.well {
+  background-color: #FCFFFC;
+  border-radius: 20px;
+  box-shadow: inset -3px 3px 3px rgb(0, 0, 0, 0.2);
+}
+
+
+.nav-tabs>li>a {color:#065376 ; font-size: 12pt;
+font-weight: bold;
+background-color:#EFF5F8;
+border-radius: 10px;
+border: 1.2px solid;
+}
+
+.btn-danger {
+    color: #1C2F4C;
+    background-color: #C7E3F0;
+    border-color: #9F3AB0;
+    border: 2px solid;
+}
+
+.btn-warning {
+    color: #1C2F4C;
+    background-color: #C7E3F0;
+    border-color: #9F3AB0;
+    border: 2px solid;
+}
+
+form.well {
+  background-color: var(--dark);
+  height: 100%;
+  box-shadow: inset -3px 3px 3px rgb(0, 0, 0, 0.2);
+  margin: 0;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
