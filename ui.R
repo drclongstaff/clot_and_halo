@@ -10,9 +10,9 @@ library(shinyWidgets)
 source("./Functions/Load_file.R")
 source("./Functions/Splin_calc.R")
 source("./Functions/Data_proc.R")
-source("./Functions/Plots_all.R")
-source("./Functions/Plot_one.R")
-#source("./Functions/Making_plots.R")
+#source("./Functions/Plots_all.R")
+#source("./Functions/Plot_one.R")
+source("./Functions/Making_plots.R")
 
 #√ersion
 vers <- "version 0.3.4,"

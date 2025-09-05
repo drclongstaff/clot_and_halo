@@ -35,7 +35,8 @@ one_plotFun <- function(PLATE, WELLNUM, TABRES) {
   # Set plotting parameters
   TabRes <- TABRES
   
-  k <- WELLNUM
+  #k <- WELLNUM
+  k<-which(colnames(PLATE)==WELLNUM)[1]-1
   
   par(mar = c(4, 4, 1, 1)) # dimensions for figure
   
