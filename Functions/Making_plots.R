@@ -26,8 +26,10 @@ plotmake_fun <- function(myPlate, TabRes, k, axx, axy) {
   abline("v" = TabRes[k, 3], lty = 2)
   abline("v" = TabRes[k, 7], lty = 2)
   abline("h" = TabRes[k, 2], lty = 2)
+  abline("v"= TabRes[k,8], col="magenta")
   arrows(mint, TabRes[k, 4], TabRes[k, 3], TabRes[k, 4], length = 0.075, angle = 10)
   arrows(mint, TabRes[k, 5], TabRes[k, 7], TabRes[k, 5], length = 0.075, angle = 10)
+  abline("h"= TabRes[k,9], lty = 2)
 }
 
 # This function plots data from a chosen well 
