@@ -30,7 +30,7 @@ plotmake_fun <- function(myPlate, TabRes, k, axx, axy) {
   arrows(mint, TabRes[k, 5], TabRes[k, 7], TabRes[k, 5], length = 0.075, angle = 10)
 }
 
-# This function plots data from all the wells
+# This function plots data from a chosen well 
 one_plotFun <- function(PLATE, WELLNUM, TABRES) {
   # Set plotting parameters
   TabRes <- TABRES
@@ -43,6 +43,7 @@ one_plotFun <- function(PLATE, WELLNUM, TABRES) {
   plotmake_fun(PLATE, TabRes, k, axx="s", axy="s")
 }
 
+#plotting all wells
 multi_plotFun <- function(PLATE, ROWNUM, TABRES) {
   # Set up some plotting parameters
   TabRes <- TABRES

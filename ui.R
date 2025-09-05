@@ -12,10 +12,10 @@ source("./Functions/Splin_calc.R")
 source("./Functions/Data_proc.R")
 source("./Functions/Plots_all.R")
 source("./Functions/Plot_one.R")
-source("./Functions/Making_plots.R")
+#source("./Functions/Making_plots.R")
 
 #√ersion
-vers <- "version 0.3.3,"
+vers <- "version 0.3.4,"
 ThisApp <- "Clot or Halo"
 
 fluidPage(
