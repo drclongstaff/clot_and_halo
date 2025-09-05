@@ -21,7 +21,8 @@ plotmake_fun <- function(myPlate, TabRes, k, axx, axy) {
   lines(Time[TabRes[k, 9]:TabRes[k, 10]], y.k[TabRes[k, 9]:TabRes[k, 10]], col = "green", lwd = 3)
   lines(Time[1:TabRes[k, 9]], y.k[1:TabRes[k, 9]], col = "red", lwd = 3)
   
-  legend(TabRes[k, 8], maxy * 0.95, xjust = TabRes[k, 8] / maxt, bty = "n", paste0(samples[k], "=", k), cex = 1.5)
+  #legend(TabRes[k, 8], maxy * 0.95, xjust = TabRes[k, 8] / maxt, bty = "n", paste0(samples[k], "=", k), cex = 1.5)
+  legend("topright", bty = "n", paste0(samples[k], "=", k), cex = 1.5)
   
   abline("v" = TabRes[k, 3], lty = 2)
   abline("v" = TabRes[k, 7], lty = 2)
